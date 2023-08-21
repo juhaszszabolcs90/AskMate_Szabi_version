@@ -2,7 +2,7 @@
 
 # About the project
 This app is a crowdsourced Q&A site, similar to Stack Overflow. At Codecool, my teammates and I developed an application about this topic. This version of the application is my attempt to refactor the underlying program and integrate DevOps features into it.
-First version of the application: https://github.com/CodecoolGlobal/ask-mate-3-python-juhaszszabolcs90.git
+- First version of the application: https://github.com/CodecoolGlobal/ask-mate-3-python-juhaszszabolcs90.git
 
 # Built With
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/486px-Python_logo_and_wordmark.svg.png" alt="Python" width="80"/>
