@@ -25,15 +25,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            // Clean up or other finalization steps if needed
-        }
-        success {
-            // Steps to execute if the pipeline is successful
-        }
-        failure {
-            // Steps to execute if the pipeline fails
-        }
-    }
 }
