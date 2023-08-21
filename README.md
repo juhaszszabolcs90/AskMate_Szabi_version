@@ -10,7 +10,9 @@ This app is a crowdsourced Q&A site, similar to Stack Overflow. At Codecool, my 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUGUIki0k4KszPz3-uwtaRVMNctvSoytyaVm-t9343WKpY3AI4ekhFtuonADemA_DBpr0&usqp=CAU" alt="CSS, HTML" width="80"/>
 
 # Roadmap
+<ul class="contains-task-list">
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> Refactor the code</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> Containerize the project</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> build CI/CD pipeline with Jenkins</li>
 <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> build CI/CD pipeline with GitHub Actions</li>
+</ul>
