@@ -1,4 +1,4 @@
-name: askmate_szabi_version-app_CI/CD Pipeline
+name: askmate_szabi_version-app
 
 on:
   push:
