@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    environment {
-        // Defining environment variables if needed
-    }
     stages {
         stage('Checkout') {
             steps {
