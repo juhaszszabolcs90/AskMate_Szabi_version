@@ -17,7 +17,7 @@ pipeline {
 //                 }
                 script {
                     def dockerImage = docker.build("juhaszszabolcs90/askmate:${env.BUILD_NUMBER}")
-                    docker.withRegistry('https://dockerhub.com', 'dockerhub-credentials') {
+                    docker.withRegistry('', 'dockerhub-credentials') {
                         dockerImage.push()
                     }
                 }
