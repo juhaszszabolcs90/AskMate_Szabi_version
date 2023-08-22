@@ -9,11 +9,11 @@ pipeline {
         stage('Build and Push Docker Image') {
             steps {
                 script {
-                    docker build -t juhaszszabolcs90/askmate:${env.BUILD_NUMBER} .
+                    docker build -t "juhaszszabolcs90/askmate:${env.BUILD_NUMBER}" .
                     withCredentials([usernamePassword(credentialsId: 'dockerhub-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
                         docker login -u $USERNAME -p $PASSWORD
                     }
-                    docker push juhaszszabolcs90/askmate:${env.BUILD_NUMBER}
+                    docker push "juhaszszabolcs90/askmate:${env.BUILD_NUMBER}"
                 }
 //                 script {
 //                     def dockerImage = docker.build("juhaszszabolcs90/askmate:${env.BUILD_NUMBER}")
