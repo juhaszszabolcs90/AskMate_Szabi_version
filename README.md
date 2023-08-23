@@ -13,5 +13,5 @@ This app is a crowdsourced Q&A site, similar to Stack Overflow. At Codecool, my 
 # Roadmap
 - [ ] Refactor the code
 - [x] Containerize the project
-- [ ] Build CI/CD pipeline with Jenkins
+- [x] Build CI/CD pipeline with Jenkins
 - [ ] Build CI/CD pipeline with GitHub Actions
