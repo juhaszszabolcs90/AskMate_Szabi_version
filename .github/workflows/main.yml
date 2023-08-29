@@ -16,6 +16,12 @@ jobs:
 
     - name: Get github context
       run: echo '${{ toJSON(github.event) }}' | jq
+
+    - name: Echo tag message
+      run: echo '${{ steps.meta.outputs.tags }}' | jq
+
+    - name: Echo label message
+      run: echo '${{ steps.meta.outputs.labels }}' | jq
       shell: bash
 
     - name: Get the latest tag
