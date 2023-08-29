@@ -18,10 +18,10 @@ jobs:
       run: echo '${{ toJSON(github.event) }}' | jq
 
     - name: Echo tag message
-      run: echo '${{ steps.meta.outputs.tags }}' | jq
+      run: echo '${{ steps.meta.outputs.tags }}'
 
     - name: Echo label message
-      run: echo '${{ steps.meta.outputs.labels }}' | jq
+      run: echo '${{ steps.meta.outputs.labels }}'
       shell: bash
 
     - name: Get the latest tag
