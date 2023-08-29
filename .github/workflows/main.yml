@@ -44,3 +44,5 @@ jobs:
       run: |
         docker tag juhaszszabolcs90/askmate:${{ github.sha }} juhaszszabolcs90/askmate:$tag
         docker push juhaszszabolcs90/askmate:$tag
+
+#check the idea of the context
