@@ -2,8 +2,7 @@ name: Get Label Count
 
 on:
   issues:
-    types:
-      - labeled
+    types: [opened]
 
 jobs:
   count_labels:
