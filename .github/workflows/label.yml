@@ -1,0 +1,19 @@
+name: Get Label Count
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  count_labels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Display label count
+        run: |
+          echo "Labels on issue/pull request:"
+          echo "${{ toJSON(github.event.issue.labels) }}" | jq '. | length'
+          echo '${{ toJSON(github.event) }}' | jq
